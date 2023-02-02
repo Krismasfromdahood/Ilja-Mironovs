@@ -1,0 +1,78 @@
+//#include<iostream>
+//using namespace std;
+//
+//
+//
+//	void getName()
+//	{
+//		string name;
+//		cout << "Please enter your name"<<endl;
+//		cin >> name;
+//	}
+//	void getAge()
+//	{
+//		int age;
+//		cout << "Please enter your age" << endl;
+//		cin >> age;
+//	}
+//	void faveColour()
+//	{
+//		string colour;
+//		cout << "Please select your favourite colour" << endl;
+//		int choice;
+//		do
+//		{
+//			cout << endl
+//				<< " 1 - red\n"
+//				<< " 2 - blue\n"
+//				<< " 3 - other\n";
+//			cin >> choice;
+//
+//			switch (choice)
+//			{
+//			case 1:
+//				break;
+//			case 2:
+//				break;
+//			case 3:
+//				break;
+//			}
+//		} while (choice != 2 && choice != 1 && choice != 3);
+//		}
+//	void enterPersonalNumber()
+//	{
+//		int person;
+//		cout << "Please enter your personal number"<<endl;
+//		cin >> person;
+//	}
+//	void faveSubject()
+//	{
+//		string subject;
+//		cout << "Please enter your favourite subject" << endl;
+//		cin >> subject;
+//	}
+//
+//int main() 
+//{
+//	getName();
+//	getAge();
+//	faveColour();
+//	enterPersonalNumber();
+//	faveSubject();
+//}
+
+#include<iostream>
+using namespace std;
+int main() {
+	int age;
+	cout << "Enter your age: ";
+	cin >> age;
+	if (age >= 21) {
+		cout << "You are old enough to enter";
+	}
+	else {
+		cout << "You aren't old enough to enter";
+	}
+	return 0;
+
+}

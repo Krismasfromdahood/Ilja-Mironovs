@@ -1,0 +1,94 @@
+#include <iostream>
+using namespace std;
+int main() {
+	//int i = 0;
+	//do {
+	//	i++;
+	//	cout << i * 3<<endl;
+	//} while (i!=125);
+	// 
+	// 
+	// 
+	// 
+	//	int i = 20;
+	//	do {
+	//		i--;
+	//		cout << i * i * i << endl;
+	//	} while (i != 1);
+	// 
+	// 
+	// 
+	// 
+	//	int i = 0;
+	//	do {
+	//		i++;
+	//		cout <<"1/"<<i<< endl;
+	//		}while (i!=1000);
+	//
+
+
+		//cout << "      *"<<endl;
+		//cout << "     ***" << endl;
+		//cout << "    *****" << endl;
+		//cout << "   *******" << endl;
+		//cout << "  *********" << endl;
+		//cout << " ***********" << endl;
+		//cout << "*************" << endl;
+		//cout << "    *****" << endl;
+		//cout << "   *******" << endl;
+		//cout << "  *********" << endl;
+		//cout << " ***********" << endl;
+		//cout << "*************" << endl;
+		//cout << "    *****" << endl;
+		//cout << "   *******" << endl;
+		//cout << "  *********" << endl;
+		//cout << " ***********" << endl;
+		//cout << "*************" << endl;
+		//cout << "    *****" << endl;
+		//cout << "    *****" << endl;
+
+
+	//string answer;
+	//do {
+	//	cin >> answer;
+	//	cout << answer;
+	//} while (answer!="stop");
+
+	//string password;
+	//int i = 0;
+	//do {
+	//	i++;
+	//	cin >> password;
+	//	cout << password<<endl;
+	//} while (password != "123aswd"&&i!=5);
+
+
+	//int i = 1005;
+	//do {
+	//	i = i - 5;
+	//	cout << i << endl;
+	//} while (i != 0);
+
+	//int temp=0;
+	//cin >> temp;
+	//if (temp > 0)cout << "temperatura ir pozitiva";
+	//if (temp < 0)cout << "temperatura ir negativa";
+	//if (temp == 0)cout << "temperatura ir neitrala";
+
+
+//int time;
+//cin >> time;
+//if (time > 0 && time < 12)cout << time << "am";
+//if (time > 11 && time < 25)time = time - 12; cout << time << "pm";
+
+	int sk1, sk2, sk3;
+	cin >> sk1>> sk2>> sk3;
+	if (sk1 > sk2&&sk1 > sk3)cout << "Skatlis " <<  sk1 << " ir maksimals"<<endl;
+	if (sk2 > sk1&&sk2 > sk3)cout << "Skatlis " <<  sk2 << " ir maksimals" << endl;
+	if (sk3 > sk2&&sk3 > sk1)cout << "Skatlis " <<  sk3 << " ir maksimals" << endl;
+	if (sk1 < sk2&&sk1 < sk3)cout << "Skatlis " <<  sk1 << " ir minimals" << endl;
+	if (sk2 < sk1&&sk2 < sk3)cout << "Skatlis " <<  sk2 << " ir minimals" << endl;
+	if (sk3 < sk2&&sk3 < sk1)cout << "Skatlis " <<  sk3 << " ir minimals" << endl;
+
+
+}
